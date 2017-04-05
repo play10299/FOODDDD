@@ -1,10 +1,4 @@
 <style type="text/css">
-.文字1 {
-	text-align: center;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-weight: bold;
-	color: #F66;
-}
 .table1 {
 	border-collapse: collapse;
 
@@ -14,10 +8,13 @@ th, td {
 	text-align: center;
 	background-image: url(images/word2.png);
 	height: 70px;
+	background-repeat: repeat;
+	background-position: center center;
 }
 
 .noborder{
 	border: 0px solid #ddd;
+	background-image: none;
 }
 body {
 	background-color: #CCC;
@@ -26,11 +23,22 @@ body {
 </style>
 <table width="900" align="center" class="table1">
   <tr>
-    <td height="159">&nbsp;<span class="文字1">訪客留言</span><td class="noborder" width="20" scope="col">&nbsp;
+    <td width="380" height="159">&nbsp;
+      <p class="文字1">訪客留言</p>
+      <p class="文字1">&nbsp;</p>
+    <td class="noborder" width="20" scope="col">&nbsp;
       </th>
 
-    <td width="380""><span class="文字1">訪客訂餐</span><td width="20" scope="col">&nbsp;</th>
-  <td width="380"><span class="文字1">網站管理</span></tr>
+    <td width="380""><p class="文字1">&nbsp;</p>
+      <p class="文字1">訪客訂餐</p>
+      <p>&nbsp;</p>
+    <td width="20" scope="col">&nbsp;</th>
+  <td width="380"><p class="文字1">&nbsp;</p>
+  <p class="文字1">網站管理</p>    <p>&nbsp;</p>  </tr>
+</table>
+<table width="900" border="1">
+  <tr>
+    <td height="147" scope="col">&nbsp;</td>
+  </tr>
 </table>
 <p>&nbsp;</p>
-<p class="文字1">&nbsp;</p>
